@@ -1,0 +1,124 @@
+/* start of testimonial section  */
+.testimonials-section {
+    background-color: #383737;
+  }
+  
+  .testimonials-block .arrow {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+    opacity: .85;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .testimonials-block .arrow svg {
+    width: 30px;
+    height: auto;
+    fill: #fff;
+  }
+  
+  .testimonials-block .left svg {
+    transform: rotate(180deg);
+  
+  }
+  
+  .testimonials-block .arrow:hover {
+    opacity: 1;
+  }
+  
+  .testimonials-block .left {
+    left: 0;
+  }
+  
+  .testimonials-block .right {
+    right: 0;
+  }
+  .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: 100%;
+    align-items: center;
+  }
+  .testimonials-container h4 {
+    color: var(--accent-color);
+    font-size: 52px;
+  }
+  .testimonials-block {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .testemonials__carousel-tracker {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    z-index: 1;
+    transition: .7s;
+  }
+  
+  .img_testemonial_block{
+    width: 350px;
+    padding: 0 15px;
+  }
+  
+  .img_testemonial_block img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .testemonials_slide .text-labels {
+    padding-top: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--light-color);
+    text-align: center;
+  }
+  .carousel-section {
+      display: flex;
+  }
+  .carousel__nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .carousel__indicator{
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .carousel__indicator:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .75;
+    transition: .45s;
+    cursor: pointer;
+  }
+  
+  .carousel__indicator:hover:before{
+    opacity: 1;
+  }
+
+
+
+/* end of testimonial section */

@@ -1,0 +1,309 @@
+footer {
+    background-color: var(--dark-color);
+}
+.footers_container {
+    margin: 0 auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_info-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.footer_block {
+    width: 20%;
+    height: 210px;
+    flex-direction: column;
+    text-align: center;
+}
+.footer_block .footer_nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 20px;
+    color: var(--light-grey);
+    text-align: start;
+}
+.footer_nav p {
+    font-size: 20px;
+}
+.footer_block2 {
+    width: 20%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_block2 .footer_nav  {
+    
+    align-items: center;
+    margin-top: 13px;
+    font-size: 20px;
+    color: var(--light-grey);
+    text-align: start;
+}
+.footer_nav--follow {
+    align-items: center;
+    padding-top: 13px;
+    font-size: 20px;
+    color: var(--light-grey);
+    text-align: center;
+}
+.logo {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.ui-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 12px;
+    margin-inline: 7px;
+    color: #fff;
+}
+.footer_block >.logo > .letterZ {
+    color: var(--accent-color);
+}
+
+.footer_block .social-icons_btn_2 {
+    justify-content: center;
+}
+.footer_block .social-icons_btn_2 a {
+    color: var(--light-color);
+    box-shadow: 0 0 0 1px var(--dark-color);   
+}
+.footer_block .social-icons_btn_2 a:hover {
+    box-shadow: var(--light-color);
+    opacity: .7;
+}
+.footer_block .footer_nav a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+.footer_block .footer_nav a:hover {
+    color: var(--light-color);
+}
+.footer_block2 .footer_nav a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+.footer_block2 .footer_nav a:hover {
+    color: var(--light-color);
+}
+.footer_nav-contact {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 13px;
+    font-size: 20px;
+    color: var(--light-grey);
+    text-align: start;
+}
+.button_footer {
+    margin-top: 25px;
+}
+.button_footer a {
+    padding: 9px;
+    width: 170px;
+}
+.button_footer a p {
+    color: var(--light-color);
+}
+.button_footer .button-member {
+    margin: 0;
+}
+#contact-email {
+    padding: 10px 22px;
+    border-radius: 20px;
+    width: 170px;
+    background-color: var(--light-grey);
+    color: var(--light-color);
+}
+#contact-email ::-webkit-input-placeholder {
+    color: var(--light-color);
+}
+.contact-phone input::placeholder {
+    color: var(--light-color);
+}
+.underline_block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    padding-top: 40px;
+    border-top: 2px solid var(--light-color);
+}
+.undeline_text-1 {
+    width: 50%;
+    align-items: flex-start;
+    margin-left: 10px;
+    
+}
+.undeline_text-1 p{
+    color: var(--light-color);
+}
+.undeline_text-2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    color: var(--light-color);
+}
+.undeline_text-2 p {
+    color: var(--light-color);
+}
+@media screen and (max-width:1000px) {
+    .button_footer a {
+        width: 150px;
+    }
+    #contact-email {
+        width: 150px;
+    }
+    .footer_nav p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:910px) {
+    .button_footer a {
+        width: 130px;
+    }
+    #contact-email {
+        width: 130px;
+    }
+    .social-icons_btn_2 a img {
+        height: 37px;
+        width: 82%;
+    }
+    .underline_block {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:867px) {
+    .footer_block a p {
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (max-width:811px) {
+    .logo h3 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:750px) {
+    .footers_container {
+        height: 110vh;
+    }
+    .footer_info-container {
+        display: block;
+        height: 100%;
+    }
+    .footer_block .logo h3 {
+       padding-top: 30px;
+       font-size: 50px;
+    }
+    .footer_info-container :nth-child(4) {
+        height: 10%;
+    }
+    .footer_block .footer_nav {
+        text-align: center;
+    }
+    .footer_block2 .footer_nav {
+        text-align: center;
+    }
+    .footer_block {
+        width: 100%;
+        height: 175px;
+    }
+    .footer_block2 {
+        width: 100%;
+        height: 140px;
+    }
+    .footer_nav--follow {
+        margin-top: 0;
+    }
+    .footer_nav--follow p {
+        font-size: 1.0em;
+    }
+    .footer_info-container :nth-child(5) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons_btn_2 .icon_pic img {
+        height: 40px;
+    }
+    .button_footer .button-member {
+        margin: 0;
+        width: 600px;
+    }
+    #contact-email {
+        width: 600px;
+    }
+    .underline_block {
+        padding-top: 0;
+        
+    }
+}
+@media screen and (max-width:650px) {
+    .button_footer .button-member {
+        width: 580px;
+    }
+    #contact-email {
+        width: 580px;
+    }
+}
+@media screen and (max-width:610px) {
+    .button_footer .button-member {
+        width: 500px;
+    }
+    #contact-email {
+        width: 500px;
+    }
+}
+@media screen and (max-width:530px) {
+    .button_footer .button-member {
+        width: 450px;
+    }
+    #contact-email {
+        width: 450px;
+    }
+}
+@media screen and (max-width:470px) {
+    .button_footer .button-member {
+        width: 400px;
+    }
+    #contact-email {
+        width: 400px;
+    }
+}
+@media screen and (max-width:420px) {
+    .button_footer .button-member {
+        width: 350px;
+    }
+    #contact-email {
+        width: 350px;
+    }
+}
+@media screen and (max-width:370px) {
+    .button_footer .button-member {
+        width: 300px;
+    }
+    #contact-email {
+        width: 300px;
+    }
+}
+@media screen and (max-width:320px) {
+    .button_footer .button-member {
+        width: 250px;
+    }
+    #contact-email {
+        width: 250px;
+    }
+}

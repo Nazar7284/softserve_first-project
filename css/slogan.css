@@ -1,0 +1,104 @@
+/* start of slogan section */
+
+.slogan {
+    background-color: var(--dark-color);
+}
+
+.slogan-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-container {
+    color: var(--accent-color);
+}
+
+.slogan-container .slogan-span {
+    color: var(--light-color);
+    font-size: 1.4em;
+    padding-block: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.slogan-container h4 {
+    font-size: 52px;
+}
+
+.slogan-container .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.slogan-container .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: var(--accent-color);
+    border-radius: 25px;
+    border-style: solid;
+    width: 147px;
+    height: 48px;
+    margin: 20px;
+    color: var(--light-color);
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.buttons .btn_2 {
+    background-color: var(--accent-color);
+    opacity: 90%;
+}
+
+.slogan-container .buttons :first-child:hover {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    opacity: 100%;
+}
+
+.slogan-container .buttons :last-child:hover {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    opacity: 100%;
+}
+@media screen and (max-width:560px) {
+    .slogan-container .button {
+        margin: 9px;
+    }
+}
+@media screen and (max-width:485px) {
+    .slogan-container h4 {
+        font-size: 47px;
+    }
+}
+@media screen and (max-width:443px) {
+    .slogan-container h4 {
+        font-size: 43px;
+    }
+}
+@media screen and (max-width:404px) {
+    .slogan-container h4 {
+        font-size: 43px;
+        display: flex;
+        text-align: center;
+    }
+}
+@media screen and (max-width:391px) {
+    .slogan-container .buttons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* end of slogan section */
